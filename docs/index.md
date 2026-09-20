@@ -33,8 +33,6 @@ The steps for the various procedures outlined in the lessons are documented in t
     * Attend some Technical Council meetings
     * Participate in mentoring sessions with Technical Council members
 
-#### Resources
-
 
 
   
