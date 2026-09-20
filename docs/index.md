@@ -24,7 +24,7 @@ Upon completing the program, Technical Contributors will:
 * Be able to create and merge Pull Requests.
 
 ### Procedures
-The steps for the various procedures outlined in the lessons below are documented in the TEI Technical Contributor Program Guide.
+The steps for the various procedures outlined in the lessons are documented in the TEI Technical Contributor Program Guide.
 
 ### Practicalities
 * What does it entail to be a Technical Contributor and how do I become one?
