@@ -39,7 +39,7 @@ Generate a new SSH key on your local machine following the instructions below. A
 
     `cat \~/.ssh/id\_ed25519.pub`
     
-#### Adding the SSH key to GitHub {#adding-the-ssh-key-to-github}
+#### Adding the SSH key to GitHub
 
 1. Go to your GitHub account, select **Settings**.  
 2. Select **SSH and GPG** keys.  
@@ -49,7 +49,7 @@ Generate a new SSH key on your local machine following the instructions below. A
 6. In the **Key** text box, add the public key.   
 7. Click **Add SSH key**.
 
-#### Generating a GitHub Personal Access Token {#generating-a-github-personal-access-token}
+#### Generating a GitHub Personal Access Token 
 
 The following procedure was written and provided by [Joey Takeda](https://alliance-jenkins.dhil.lib.sfu.ca/job/lim/lastSuccessfulBuild/artifact/public/docs/getting_started.html#getting_started_setting-up-oxygen-first-time).
 
@@ -63,7 +63,7 @@ The following procedure was written and provided by [Joey Takeda](https://allian
 8. Click **Generate Token** at the bottom of the screen.  
 9. You will now see a token, which is effectively the same as a password for GitHub. Make sure to copy the token by selecting the copy button and save the token using a secure password manager.
 
-#### Cloning a repository {#cloning-a-repository}
+### Cloning a repository
 
 1. On GitHub, navigate to the main page of the repository.  
 2. Above the list of files, click **Code**.  
@@ -88,11 +88,11 @@ If you are unable to clone a repository, check that:
 * The default branch you want to clone still exists. For more information, see [Troubleshooting cloning errors](https://docs.github.com/en/repositories/creating-and-managing-repositories/troubleshooting-cloning-errors#error-remote-head-refers-to-nonexistent-ref-unable-to-checkout).  
 * [Troubleshooting connectivity problems](https://docs.github.com/en/get-started/using-github/troubleshooting-connectivity-problems)
 
-#### Oxygen Git Client
+### Oxygen Git Client
 
 The following instructions are intended for users who are using Oxygen and the Git Client plugin. 
 
-##### Cloning the TEIC Repositories using Oxygen Git Client 
+#### Cloning the TEIC Repositories using Oxygen Git Client 
 1. In Oxygen, go to the **Git** menu and select **Clone New Repository**  
 2. In the **Clone Repository** window, add the URL link to the **Repository URL** field. For example, for the TEI repository add the web link: `https://github.com/TEIC/TEI.git`.  
 3. For the **Checkout branch** field, select **\<Default branch\>**.  
@@ -100,7 +100,7 @@ The following instructions are intended for users who are using Oxygen and the G
 5. At this point, you may be prompted to authenticate. To authenticate, enter your GitHub username and paste the GitHub token that you generated earlier as the password.  
 6. Repeat the above steps for cloning the [Stylesheets](https://github.com/TEIC/Stylesheets.git) repository.
 
-##### Connecting the TEIC Repositories to Oxygen Git Client {#connecting-the-teic-repositories-to-oxygen-git-client}
+#### Connecting the TEIC Repositories to Oxygen Git Client {#connecting-the-teic-repositories-to-oxygen-git-client}
 
 If you have already cloned the TEIC repositories via the command line using the password-protected SSH key as follows `git clone [git@github.com](mailto:git@github.com):TEIC/TEI.git`, you may be receiving an error message in the **Git Staging** tab in Oxygen stating that the cloned repositories cannot be reached.   
 The following procedure documents how you can resolve this error message by adding the URL for the remote repository.
