@@ -1,5 +1,5 @@
 ---
-title: Lesson 6
+title: Lesson 6 Introduction to Git and GitHub Authentication
 parent: Lessons
 nav_order: 6
 ---
