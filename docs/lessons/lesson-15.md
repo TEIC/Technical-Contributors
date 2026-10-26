@@ -1,5 +1,5 @@
 ---
-title: Lesson 15
+title: Lesson 15 — Testing
 parent: Lessons
 nav_order: 15
 ---

@@ -1,5 +1,5 @@
 ---
-title: Lesson 13
+title: Lesson 13 — Introduction to XPath and XSLT
 parent: Lessons
 nav_order: 13
 ---

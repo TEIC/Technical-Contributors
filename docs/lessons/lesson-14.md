@@ -1,5 +1,5 @@
 ---
-title: Lesson 14
+title: Lesson 14 — Customisation
 parent: Lessons
 nav_order: 14
 ---

@@ -1,5 +1,5 @@
 ---
-title: Lesson 12
+title: Lesson 12 — Adding a fork from a remote repository
 parent: Lessons
 nav_order: 12
 ---

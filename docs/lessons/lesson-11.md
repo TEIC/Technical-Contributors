@@ -1,5 +1,5 @@
 ---
-title: Lesson 11
+title: Lesson 11 — Merging local uncommitted changes to a new branch
 parent: Lessons
 nav_order: 11
 ---

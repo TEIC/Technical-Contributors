@@ -1,5 +1,5 @@
 ---
-title: Lesson 9
+title: Lesson 9 — Introduction to using Docker for the TEIC repositories
 parent: Lessons
 nav_order: 9
 ---
