@@ -1,5 +1,5 @@
 ---
-title: Lesson 5
+title: Lesson 5 Introduction to the Website repository
 parent: Lessons
 nav_order: 5
 ---
