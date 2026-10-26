@@ -1,5 +1,5 @@
 ---
-title: Lesson 7
+title: Lesson 7 Using the Command Line, Git, and the TEIC GitHub repositories
 parent: Lessons
 nav_order: 7
 ---
