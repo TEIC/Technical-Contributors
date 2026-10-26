@@ -1,5 +1,5 @@
 ---
-title: Lesson 3
+title: Lesson 3 Overview of the TEI Guidelines repository
 parent: Lessons
 nav_order: 3
 ---
