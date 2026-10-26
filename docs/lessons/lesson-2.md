@@ -1,5 +1,5 @@
 ---
-title: Lesson 2 Introduction to the TEI Technical Council and the TEI Repositories
+title: Lesson 2 — Introduction to the TEI Technical Council and the TEI Repositories
 parent: Lessons
 nav_order: 2
 ---

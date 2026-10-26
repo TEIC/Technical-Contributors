@@ -1,5 +1,5 @@
 ---
-title: Lesson 4 Introduction to the Stylesheets repository
+title: Lesson 4 — Introduction to the Stylesheets repository
 parent: Lessons
 nav_order: 4
 ---

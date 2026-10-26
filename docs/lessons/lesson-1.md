@@ -1,5 +1,5 @@
 ---
-title: Lesson 1 Introduction to the TEI Guidelines
+title: Lesson 1 — Introduction to the TEI Guidelines
 parent: Lessons
 nav_order: 1
 ---
