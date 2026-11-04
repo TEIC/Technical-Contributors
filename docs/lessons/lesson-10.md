@@ -1,5 +1,5 @@
 ---
-title: Lesson 10 — Creating and updating a Pull Request
+title: Lesson 10. Creating and updating a Pull Request
 parent: Lessons
 nav_order: 10
 ---
