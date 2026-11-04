@@ -1,0 +1,7 @@
+{%- comment -%}
+  Overrides the Just the Docs title include: shows the TEI emblem next to
+  the site title (instead of replacing the title with a logo).
+  The image has an empty alt text because the title text follows it.
+{%- endcomment -%}
+<img class="site-emblem" src="{{ '/assets/images/tei-emblem.png' | relative_url }}" alt="" width="36" height="36">
+<span class="site-title-text">{{ site.title }}</span>

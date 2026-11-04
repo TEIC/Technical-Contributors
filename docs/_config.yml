@@ -3,3 +3,64 @@ description: TEI Technical Contributors Programme
 theme: just-the-docs
 url: https://teic.github.io
 baseurl: /Technical-Contributors
+
+# ---------------------------------------------------------------------------
+# Layout
+# Give every page the Just the Docs layout. Without this block only pages
+# that set `layout:` in their own front matter (currently only index.md) are
+# rendered with the theme; all other pages are published as bare HTML,
+# without stylesheet, navigation or character encoding.
+# ---------------------------------------------------------------------------
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# ---------------------------------------------------------------------------
+# Look and feel
+# Colours: _sass/color_schemes/tei.scss (based on the TEI emblem)
+# Extra CSS: _sass/custom/custom.scss
+# Site title with emblem: _includes/title.html
+# ---------------------------------------------------------------------------
+color_scheme: tei
+favicon_ico: /favicon.ico
+
+search_enabled: true
+heading_anchors: true
+enable_copy_code_button: true
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Links in the top right corner of every page
+aux_links:
+  "TEI Guidelines":
+    - "https://tei-c.org/release/doc/tei-p5-doc/en/html/"
+  "TEIC on GitHub":
+    - "https://github.com/TEIC"
+aux_links_new_tab: true
+
+# "Edit this page on GitHub" link at the bottom of every page
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/TEIC/Technical-Contributors"
+gh_edit_branch: "main"
+gh_edit_source: docs
+gh_edit_view_mode: "tree"
+
+# Callout boxes, available for future lesson content. Usage in Markdown:
+#   {: .note }
+#   A paragraph that will be shown as a note.
+callouts:
+  note:
+    title: Note
+    color: blue
+  tip:
+    title: Tip
+    color: green
+  warning:
+    title: Warning
+    color: red
+  exercise:
+    title: Exercise
+    color: yellow

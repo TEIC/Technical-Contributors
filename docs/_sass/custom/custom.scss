@@ -1,0 +1,214 @@
+// Custom styling for the TEI Technical Contributors site.
+// Loaded by Just the Docs after its own styles, so these rules win.
+// Colours come from _sass/custom/setup.scss.
+//
+// Principle: style the existing Markdown as it is. Nothing here requires
+// changes to the text of the pages.
+
+// ---------------------------------------------------------------------------
+// 1. Header and site title
+// ---------------------------------------------------------------------------
+
+// Thin amber line along the top, echoing the brackets of the TEI emblem
+body {
+  border-top: 4px solid $tei-amber;
+}
+
+.site-title {
+  gap: $sp-2;
+  font-size: $font-size-6 !important;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: $tei-black;
+}
+
+.site-emblem {
+  flex-shrink: 0;
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+// ---------------------------------------------------------------------------
+// 2. Navigation (left side bar)
+// ---------------------------------------------------------------------------
+
+.nav-list .nav-list-item .nav-list-link {
+  color: $tei-text;
+
+  &:hover {
+    color: $tei-blue;
+  }
+
+  // The page you are on: amber marker on the left
+  &.active {
+    color: $tei-black;
+    font-weight: 600;
+    box-shadow: inset 3px 0 0 $tei-amber;
+  }
+}
+
+// Top-level items slightly bolder than the lessons below them
+.nav-list > .nav-list-item > .nav-list-link {
+  font-weight: 500;
+}
+
+// Links in the top right corner
+.aux-nav .aux-nav-list-item a {
+  color: $tei-blue;
+}
+
+// ---------------------------------------------------------------------------
+// 3. Headings in the page content
+// ---------------------------------------------------------------------------
+
+.main-content {
+  h1 {
+    font-weight: 600;
+    letter-spacing: -0.015em;
+    color: $tei-black;
+
+    // Short amber underline below the main page heading
+    &::after {
+      content: "";
+      display: block;
+      width: 3rem;
+      height: 4px;
+      margin-top: $sp-3;
+      background: $tei-amber;
+    }
+  }
+
+  h2,
+  h3 {
+    font-weight: 600;
+    color: $tei-black;
+  }
+
+  // Just the Docs shows h4 as tiny UPPERCASE labels. The Technical Guide uses
+  // h4 for procedure names, so make them normal, readable headings.
+  h4 {
+    font-size: $font-size-5 !important;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: normal;
+    color: $tei-black;
+  }
+
+  // Every lesson page starts with its title as an h4 ("#### Lesson 1: ...").
+  // Show that first heading as the page title.
+  main > h4:first-child {
+    font-size: $font-size-7 !important;
+    line-height: 1.25;
+    margin-top: 0;
+    margin-bottom: $sp-6;
+
+    @include mq(md) {
+      font-size: $font-size-8 !important;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      width: 3rem;
+      height: 4px;
+      margin-top: $sp-3;
+      background: $tei-amber;
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// 4. Lists (the lessons are mostly nested outlines)
+// ---------------------------------------------------------------------------
+
+.main-content {
+  ul > li,
+  ol > li {
+    margin-top: $sp-1;
+  }
+
+  // Top-level items of an outline get a little more air
+  main > ul > li {
+    margin-top: $sp-3;
+  }
+
+  // Nested lists: a light guide line to show the hierarchy
+  li > ul,
+  li > ol {
+    margin-top: $sp-1;
+    margin-left: 0.25rem;
+    padding-left: 1.75rem;
+    border-left: 1px solid $tei-line;
+  }
+
+  // Amber bullets for the top level, grey for deeper levels
+  main > ul > li::before {
+    color: $tei-amber;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// 5. Code: TEI element and attribute names, commands
+// ---------------------------------------------------------------------------
+
+// Inline code, e.g. `<gloss>`, `@xml:lang`, `git status`
+:not(pre, figure) > code {
+  padding: 0.1em 0.35em;
+  font-size: 0.875em;
+  color: $tei-black;
+  background-color: $tei-amber-light;
+  border: 1px solid $tei-amber-border;
+  border-radius: 3px;
+}
+
+// Code blocks
+div.highlighter-rouge,
+figure.highlight {
+  background-color: $tei-paper;
+  border: 1px solid $tei-line;
+  border-left: 3px solid $tei-amber;
+}
+
+// ---------------------------------------------------------------------------
+// 6. Tables (command reference tables in the Technical Guide)
+// ---------------------------------------------------------------------------
+
+.table-wrapper {
+  border: 1px solid $tei-line;
+  box-shadow: none;
+}
+
+th {
+  background-color: $tei-paper;
+  color: $tei-black;
+  font-weight: 600;
+}
+
+th,
+td {
+  border-bottom-color: $tei-line;
+}
+
+// ---------------------------------------------------------------------------
+// 7. Links
+// ---------------------------------------------------------------------------
+
+.main-content a:not(.anchor-heading) {
+  text-decoration-color: rgba($tei-blue, 0.35);
+  text-underline-offset: 0.18em;
+
+  &:hover {
+    color: $tei-blue-dark;
+    text-decoration-color: $tei-blue-dark;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// 8. Footer
+// ---------------------------------------------------------------------------
+
+.site-footer,
+#edit-this-page {
+  color: $grey-dk-100;
+}

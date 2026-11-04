@@ -1,0 +1,13 @@
+// TEI colour scheme for Just the Docs, activated in _config.yml with
+// `color_scheme: tei`. It builds on the default light scheme (which the theme
+// loads first) and only overrides the colours below.
+// The brand colours themselves are defined in _sass/custom/setup.scss.
+
+$body-heading-color: $tei-black;
+$body-text-color: $tei-text;
+$link-color: $tei-blue;
+$nav-child-link-color: $tei-text;
+$sidebar-color: $tei-paper;
+$btn-primary-color: $tei-blue;
+$feedback-color: darken($tei-paper, 4%);
+$border-color: $tei-line;

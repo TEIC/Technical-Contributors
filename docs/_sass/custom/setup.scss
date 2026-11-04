@@ -1,0 +1,14 @@
+// TEI brand colours.
+// Defined here (and not in the colour scheme) because Just the Docs loads
+// this file for every stylesheet it builds, so custom.scss can always use them.
+// Source: the TEI emblem (amber, near-black) and the TEI website (dark blue).
+
+$tei-amber: #f7a824;        // decoration only: too light for text on white
+$tei-amber-light: #fdf4e3;
+$tei-amber-border: #f0dcb4;
+$tei-black: #222120;
+$tei-text: #3d3b3a;
+$tei-blue: #23408e;
+$tei-blue-dark: #182d66;
+$tei-paper: #faf8f4;
+$tei-line: #e6e1d8;
