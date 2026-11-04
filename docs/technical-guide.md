@@ -3,9 +3,16 @@ title: Technical Guide
 nav_order: 3
 ---
 
+# Technical Guide
+{: .no_toc }
 
-# Technical Contributor Program
-## Guide
+In this section, you learn all about the technical set up of your computer. How to authenticate yourself with GitHub, how to clone the TEI GitHub repositories, how to connect these repositories with the Git plugin of oXygen XML Editor (if you work in oXygen), and a number of useful terminal commands. Some of this information may already be familiar to you, so consider this guide as reference pages you can consult when needed.
+
+## Table of contents
+{: .no_toc }
+
+- TOC
+{:toc}
 
 ### GitHub Authentication
 
@@ -117,7 +124,7 @@ The following procedure documents how you can resolve this error message by addi
    ![][image3]  
 8. Click **OK**. The Git Client should now be able to access and connect to the remote repository.
 
-### Docker Commands Quick Reference Guide ([TCW32](https://tei-c.org/documentation/tcw32/)) {#docker-commands-quick-reference-guide-(tcw32)}
+### Docker Commands Quick Reference Guide ([TCW32](https://tei-c.org/documentation/tcw32/))
 
 | Command | Function |
 | :---- | :---- |

@@ -7,31 +7,11 @@ nav_order: 1
 # Technical Contributor Program
 ### Introduction
 
-The Technical Contributor Program is an initiative by the TEI Technical Council to provide mentoring on how to edit and maintain the TEI P5 Guidelines and Stylesheets repositories to interested members of the TEI community. 
+The Technical Contributor Program is an initiative by the [TEI Technical Council](https://www.tei-c.org/activities/council/) to provide mentoring on how to edit and maintain the TEI P5 Guidelines and Stylesheets repositories to interested members of the TEI community. While opening Pull Requests and working on GitHub tickets is at all times available to all TEI users, the Technical Contributors will receive training to gain a deeper understanding of TEI development work. This includes mentoring sessions with Council members, attending TEI Technical Council video calls, and special in-person meet-ups during the TEI Conferences.
 
-Upon completing the program, Technical Contributors will:
+The Program runs for one year; the first iteration starts in January 2027. For more information about the program and how to sign up, see our [About page]({% link about.md %}). To get an idea of what you will learn, see the [Lessons overview]({% link lessons/index.md %}).
 
-* Have a deeper understanding of the TEI Guidelines and Stylesheets source code.
 
-* Know how to use GitHub, Git, Docker, and the command line (bash).
-
-* Be able to edit the Guidelines and Stylesheets.
-
-* Be able to build and test the TEI Guidelines and schemas.
-
-* Know how to address GitHub issues. 
-
-* Be able to create and merge Pull Requests.
-
-### Procedures
-The steps for the various procedures outlined in the lessons are documented in the TEI Technical Contributor Program Guide.
-
-### Practicalities
-* What does it entail to be a Technical Contributor and how do I become one?
-
-    * Open to anyone in TEI community that is interested in learning about and contributing to the TEI Guidelines
-    * Attend some Technical Council meetings
-    * Participate in mentoring sessions with Technical Council members
 
 
 
